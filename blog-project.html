@@ -19,10 +19,12 @@ mixpanel.init("c789c5a69e3deea0c7e1f3cf53b2befd", {batch_requests: true})</scrip
 <script>
 function myFunction1() {
     mixpanel.track("Button Click 1");
+    console.log("Button Click 1");
 }
 
 function myFunction2() {
     mixpanel.track("Button Click 2" , {parameter1:'value1' , parameter2:'value2'});
+    console.log("Button Click 2");
 }
 </script>
 
